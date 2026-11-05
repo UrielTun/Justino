@@ -1,0 +1,45 @@
+#game-area {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: white;
+    border: 2px solid #000;
+}
+
+.character {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+#player {
+    background-color: blue;
+}
+
+#beyonce {
+    background-image: url('Justino.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+#menu_configuraciones{
+    width: 400px;
+    margin: 20px 0 0 0;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(146, 35, 35);
+    color: white;
+}
+
+#menu_configuraciones h2{
+    margin: 0;
+}
+
+#velocidad{
+    cursor: pointer;
+}
+
+select{
+    padding: 5px;
+}

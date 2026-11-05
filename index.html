@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Escapa de Justino</title>
+</head>
+<body>
+
+    <h1>Escapa de Justino</h1>
+
+    <div id="game-area">
+        <div id="player" class="character"></div>
+        <div id="beyonce" class="character"></div>
+    </div>
+
+    <div id="menu_configuraciones">
+        <h3>Configuraciones</h3>
+        <label for="velocidad">Tu velocidad</label>
+        <input type="range" id="velocidad" min="10" max="100" value="40">
+        <span id="valor_velocidad">40</span>
+
+        <br><br>
+
+        <label for="velocidad_justino">Velocidad de Justino</label>
+        <input type="range" id="velocidad_justino" min="10" max="100" value="10">
+        <span id="valor_justino">10</span>
+
+        <br><br>
+
+        <label for="color">Color de fondo</label>
+        <select id="color">
+            <option value="white">Blanco</option>
+            <option value="red">Rojo</option>
+            <option value="green">Verde</option>
+            <option value="yellow">Amarillo</option>
+            <option value="purple">Morado</option>
+        </select>
+
+        <br><br>
+
+        <label for="musica">Música</label>
+        <input type="checkbox" id="musica">
+        <audio id="audio" src="Rock.mp3"></audio>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
